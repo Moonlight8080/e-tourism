@@ -261,9 +261,11 @@
         });
 	}
 
-    function cformSuccess() {
-    $("#ContactForm")[0].reset();
-    window.location.href = "https://api.whatsapp.com/send/?phone=%2B628983311280&text&app_absent=0";
+       function cformSuccess() {
+        $("#contactForm")[0].reset();
+        csubmitMSG(true, "Message Submitted!");
+        $("input").removeClass('notEmpty'); // resets the field label after submission
+        $("textarea").removeClass('notEmpty'); // resets the field label after submission
     }
 
     function cformError() {
