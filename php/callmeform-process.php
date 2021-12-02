@@ -31,8 +31,8 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
-$Subject = "New quote request from Aria landing page";
+$EmailTo = "ryn2416@gmail.com";
+$Subject = "New quote request from Lampung Tour & Travel landing page";
 
 // prepare email body text
 $Body = "";
